@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/formWave.css" />
+
+    <script defer src="js/formValidation.js"></script>
+
+    <title>Page5_2 FormWave</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Nori App Sign-up</h1>
+      <form name="NoriAppSignupForm"  action="" method="post">        <div class="result" ></div>
+        <br><div class="errormsg" ></div><br>
+        <div class="form-control">
+          <input type="text" required id="fName" />
+          
+          <label>Name</label>
+        </div>
+ 
+      </label>
+ 
+
+        <div class="form-control">
+ 
+          <input type="text" required id="emailaddress4validation" onblur="isValidEm(this)" />
+          <label>Email</label>
+        </div>
+   
+
+        <div class="form-control">
+ 
+          <input type="password" id="pw4validation" required onblur="isValidPw(this)" />
+          <label>Password</label>
+        </div>
+        Choose gender:
+        <select class="saltation" name="saltation">
+          <option value="">Select One …</option>
+          <option value="Mr.">Male</option>
+          <option value="Ms.">Female</option>
+        </select>
+        <br>
+        <br>
+        <!-- <form name="form" action="" method="post">
+          <p>
+            <input
+              type="checkbox"
+              id="id1"
+              value="1"
+              checked="checked"
+              onclick="chbx(this)"
+            />Male
+            <input
+              type="checkbox"
+              id="id2"
+              value="2"
+              onclick="chbx(this)"
+            />Female
+          </p> -->
+
+  
+
+        <div class="signupbtn" ></div>
+      
+         
+      </form>
+    </div>
+  </body>
+</html>
